@@ -1,23 +1,22 @@
 const categories = [
-    { name: "لبس", percent: 11.67 },
-    { name: "حلاقة", percent: 3.33 },
+    { name: "لبس", percent: 10 },
+    { name: "حلاقة", percent: 3 },
     { name: "ادوات عناية", percent: 1.67 },
-    { name: "اشتراك الجيم", percent: 6.67 },
-    { name: "اكل الجيم", percent: 3.33 },
-    { name: "فيتامينات", percent: 1.67 },
-    { name: "مصاريف", percent: 5 },
-    { name: "ترفيه", percent: 5 },
-    { name: "موصلات", percent: 1.67 },
-    { name: "نت أرضي", percent: 3.33 },
-    { name: "نت محمول", percent: 1.67 },
-    { name: "أستثمار أسهم", percent: 3.50 },
-    { name: "أستثمار صناديق أسهم", percent: 8.75 },
-    { name: "أستثمار صناديق دهب", percent: 3.50 },
-    { name: "أستثمار دخل ثابت", percent: 17.50 },
+    { name: "اشتراك الجيم", percent: 5 },
+    { name: "احتياجات الجيم", percent: 3.5 },
+    { name: "مصاريف وموصلات", percent: 3.5 },
+    { name: "ترفيه", percent: 3 },
+    { name: "نت أرضي", percent: 3 },
+    { name: "نت محمول", percent: 1 },
+    { name: "أستثمار أسهم", percent: 3 },
+    { name: "أستثمار صناديق أسهم", percent: 9.23 },
+    { name: "أستثمار صناديق دهب", percent: 8.15 },
+    { name: "أستثمار دخل ثابت", percent: 20.38 },
     { name: "تطوير مشروع", percent: 1.75 },
     { name: "أستثمارات أخري", percent: 5 },
     { name: "العشور", percent: 10 },
-    { name: "أمي", percent: 5 },
+    { name: "أمي", percent: 3.55 },
+    { name: "طوارئ", percent: 5 },
 ];
 
 const amountInput = document.getElementById('amount');
@@ -69,4 +68,5 @@ calcBtn.addEventListener('click', () => {
 
 // init example
 amountInput.value = 0;
+
 renderTable(0);
